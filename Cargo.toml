@@ -36,8 +36,8 @@ path = "src/lib.rs"
 [dependencies]
 futures = { version = "0.3", default-features = false, optional = true, features = ["alloc"] }
 sea-schema-derive = { version = "0.2.0", path = "sea-schema-derive", default-features = false }
-sea-query = { git = "https://github.com/KveinAxel/sea-query", branch = "madsim-0.30.3", default-features = false, features = ["derive"] }
-sea-query-binder = { git = "https://github.com/KveinAxel/sea-query", branch = "madsim-0.5.0", default-features = false, optional = true }
+sea-query = { git = "https://github.com/KveinAxel/sea-query", branch = "madsim-0.30.4", default-features = false, features = ["derive"] }
+sea-query-binder = { git = "https://github.com/KveinAxel/sea-query", branch = "madsim-0.30.4", default-features = false, optional = true }
 serde = { version = "1", default-features = false, optional = true, features = ["derive"] }
 sqlx = { git = "https://github.com/KveinAxel/sqlx", branch = "hack-madsim", default-features = false, optional = true }
 log = { version = "0.4", default-features = false, optional = true }
